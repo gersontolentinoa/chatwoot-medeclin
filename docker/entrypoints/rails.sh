@@ -31,4 +31,5 @@ do
 done
 
 # Execute the main process of the container
-exec "$@"
+#exec "$@"
+exec rails server  -b 0.0.0.0 -p 3000
